@@ -1,0 +1,59 @@
+nav{
+    text-align: center;
+    color: darkred;
+}
+
+h1{
+    color:white;
+    background-color:darkred;
+    text-align: center;
+    border: 2px solid black;
+    
+}
+
+article{
+    text-align: center;
+    font-size: large;
+}
+
+footer{
+    background-color:gray;
+    color:darkgray;
+    text-align: right;
+}
+address{
+    color:rgb(74, 27, 5);
+}
+
+
+#textid{
+    color:black;
+}
+
+.textclass {
+    font-weight: bold;
+    color:darkred;
+}
+
+div.seconddiv{
+    background-color:gray;
+    color: black;
+}
+
+div.seconddiv p{
+    color:darkblue;
+}
+
+div.thirddiv{
+    background-color:gray;
+    color: black;
+}
+
+div.thirddiv p{
+    color:darkblue;
+}
+
+
+hgroup:hover{
+    color:yellow;
+}
