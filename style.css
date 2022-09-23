@@ -1,3 +1,35 @@
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #383636;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+.active {
+    background-color: darkred;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #1d1a1a;
+
+}
+
 nav{
     text-align: center;
     color: darkred;
@@ -21,6 +53,7 @@ footer{
     color:darkgray;
     text-align: right;
 }
+
 address{
     color:rgb(74, 27, 5);
 }
